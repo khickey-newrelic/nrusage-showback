@@ -1,0 +1,7 @@
+# Test1
+test1.account_id: 99999999   # Source account.  Can be subaccount or master.
+test1.api_key: NRNRNRNRNRNRNRNRNRNRNRNRNR  # Rest API key for source account
+test1.query_key: NRNRNRNRNRNRNRNRNRNRNRNRNR  # Query key for source account
+test1.destination_account_id: 888888888   # Account to insert custom usage events.  Defaults to source account if not set.
+test1.insert_key: NRNRNRNRNRNRNRNRNRNRNRNRNR  # Insert key for destination account. 
+test1.destination_query_key : NRNRNRNRNRNRNRNRNRNRNRNRNR  # Query key for destination account.  Used only by Junit tests for validation purposes.
